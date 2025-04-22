@@ -1,7 +1,8 @@
 import Section from "./section";
-import sections from "../sections";
+import { useResume } from "./ResumeContext";
+
 const Resume = () => {
-    
+    const { sections } = useResume();
     return (
         <div className="resume">
         {sections.map((section, index) => (

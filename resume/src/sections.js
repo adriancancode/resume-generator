@@ -1,6 +1,6 @@
-const sections = [
+const sectionsData = [
     {
-        title: 'Name here',
+        title: 'Contact Information',
         descriptions: [
             'Your Name',
             'Your Address',
@@ -28,3 +28,5 @@ const sections = [
     },
     
 ];
+
+export default sectionsData;
