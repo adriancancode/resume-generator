@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Resume from './components/resume';
 import Input from './components/input';
 import { ResumeProvider } from './components/ResumeContext';

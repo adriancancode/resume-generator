@@ -1,4 +1,4 @@
-const sectionsData = [
+const sections = [
     {
         title: 'Contact Information',
         descriptions: [
@@ -29,4 +29,4 @@ const sectionsData = [
     
 ];
 
-export default sectionsData;
+export default sections;
