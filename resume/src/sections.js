@@ -26,6 +26,13 @@ const sections = [
             "Intern at Startup (2019 - 2020)",
         ],
     },
+    {
+        title: "Projects",
+        descriptions: [
+            "Tic-Tac-Toe Game",
+            "Portfolio Website",
+        ]
+    }
     
 ];
 

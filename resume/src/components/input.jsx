@@ -3,10 +3,11 @@ import { useResume } from "./ResumeContext";
 import "../styles/input.css";
 
 export default function Input({ section }) {
-  const { sections, updateSections } = useResume();
+  const resumeContext = useResume();
+  const { sections, updateSections } = resumeContext;
 
   const sectionData = sections.find((sec) => sec.title === section);
-  const isInitialData = sectionData.isInitial !== false; // Check if data is initial placeholder
+  const isInitialData = sectionData?.isInitial !== false; // Check if data is initial placeholder
 
   const [newDescription, setNewDescription] = useState('');
   const [isEditing, setIsEditing] = useState(false);
